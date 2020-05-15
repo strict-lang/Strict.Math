@@ -1,0 +1,6 @@
+implement Computation<Number>
+
+has input Number
+
+method Compute() returns Number
+  throw Error.WithMessage("unimplemented")

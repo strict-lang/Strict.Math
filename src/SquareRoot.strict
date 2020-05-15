@@ -1,0 +1,9 @@
+implement Computation<Number>
+
+has input Float
+
+method Compute() returns Number
+  test
+    SquareRoot(9) is 3
+    SquareRoot(64) is 8
+  throw Error.WithMessage("unimplemented")
