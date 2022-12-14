@@ -1,0 +1,5 @@
+has numbers(2)
+Length Numberto Text
+	Vector2D.Length is 0
+	Vector2D(3, 4).Length is 5
+	(X * X + Y * Y).SquareRoot
