@@ -1,5 +1,19 @@
 has numbers(2)
-Length Numberto Text
+has One = Vector2D(1, 1)
+has Left = Vector2D(-1, 0)
+has Right = Vector2D(1, 0)
+has Up = Vector2D(0, -1)
+has Down = Vector2D(0, 1)
+Length Number
 	Vector2D.Length is 0
 	Vector2D(3, 4).Length is 5
 	(X * X + Y * Y).SquareRoot
++(other) List
+	Vector2D + Vector2D.One is (1, 1)
+	Vector2D(1, 2) + Vector2D(4, 5) is (5, 7)
+	Vector2D(X + other.X, Y + other.Y)
+Normalize Vector2D
+	Vector2D.One.Normalize is Vector2D.One
+	Vector2D(0, 5).Normalize is Vector2D(0, 1)
+	Vector2D(3, 4).Normalize.Length is 1
+	value / Length
