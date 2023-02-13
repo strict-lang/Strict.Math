@@ -1,5 +1,5 @@
 has numbers with Length is 2
-has One = Vector2((1, 1))
+has One = Vector2(1, 1)
 has Left = Vector2(-1, 0)
 has Right = Vector2(1, 0)
 has Up = Vector2(0, -1)
