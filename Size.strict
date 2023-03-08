@@ -1,0 +1,11 @@
+has iterator
+has Width with value > 0 Number
+has Height with value > 0 Number
+for Iterator(Vector2)
+	for x in Range(0, Width)
+	for y in Range(0, Height)
+		Vector2(x, y)
+in(element Vector2) Boolean
+	true
+Length Number
+	Width * Height
