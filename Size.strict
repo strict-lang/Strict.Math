@@ -1,4 +1,4 @@
-has iterator
+has iterator Iterator(Vector2)
 has Width Number with value > 0
 has Height Number with value > 0
 for Iterator(Vector2)
