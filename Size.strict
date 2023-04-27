@@ -9,3 +9,9 @@ in(element Vector2) Boolean
 	true
 Length Number
 	Width * Height
++(number) Size
+	Size(1, 1) + 1 is Size(2, 2)
+	Size(Width + number, Height + number)
+*(number) Size
+	Size(1, 1) * 5 is Size(5, 5)
+	Size(Width * number, Height * number)
