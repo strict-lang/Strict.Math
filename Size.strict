@@ -11,6 +11,9 @@ Area Number
 	Size(1, 1).Area is 1
 	Size(2, 3).Area is 6
 	Width * Height
+Length Number
+	Size(1, 2).Area is Size(1, 2).Length
+	Area
 +(number) Size
 	Size(1, 1) + 1 is Size(2, 2)
 	Size(Width + number, Height + number)
