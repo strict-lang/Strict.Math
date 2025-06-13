@@ -1,9 +1,15 @@
 has numbers with Length is 2
-has One = Vector2(1, 1)
-has Left = Vector2(-1, 0)
-has Right = Vector2(1, 0)
-has Up = Vector2(0, -1)
-has Down = Vector2(0, 1)
+constant One = Vector2(1, 1)
+constant Left = Vector2(-1, 0)
+constant Right = Vector2(1, 0)
+constant Up = Vector2(0, -1)
+constant Down = Vector2(0, 1)
+X Number
+	Vector2(1, 2).X is 1
+	numbers(0)
+Y Number
+	Vector2(1, 2).Y is 2
+	numbers(1)
 Length Number
 	Vector2.Length is 0
 	Vector2(3, 4).Length is 5
